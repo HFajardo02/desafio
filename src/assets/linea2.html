@@ -54,115 +54,111 @@
     </header>
 
     <main>
-        <!--Imagen Central Linea 2-->
-        <section>
-            <img class="imagen-central" src="../../src/images/fondolinea2.jpg" alt="Linea 2 - Productos">
-            <div class="titulo-imagen-central">
-                Linea 2
-            </div>
-            <div class="texto-imagen-central">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur animi est porro dolore atque molestias.
-                </p>
-            </div>
-        </section>
+        
+        <div>
+            <!--Imagen Central Linea 2-->
+            <img src="../../src/images/fondolinea2.jpg" class="img-fluid alto-img-sup" alt="Linea 2 - Productos">
 
-        <!--Titulo Central Linea 2-->
-        <section>
-            <h1>Productos Línea 2</h1>
-        </section>
+            <!--Titulo para Linea 2-->
+            <span class="d-block bg-separadores">Línea 2</span>
+        </div>
 
-        <!--Sección Características Línea 2-->
-        <section class="grid-container-lineas">
-            <h2 class="grid-item">Caracteríticas Línea 2</h2>
-            <div class="grid-item">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur animi est porro dolore atque molestias.
-                </p>
-            </div>
-            <div class="grid-item">
-                <img src="../../src/images/lineas-caracteristicas.webp" alt="Beneficios Lineas de Productos" width="600" height="300">
-            </div>
-        </section>
+        <!--Caracteristicas, Modo de Uso y Beneficios-->
+        <div class="container">
 
-        <!--Sección Modo de Uso-->
-        <section class="grid-container-lineas">
-            <div class="grid-item">
-                <img src="../../src/images/lineas-uso.webp" alt="Modo de Uso Lineas de Productos" width="600" height="300">
+            <!--Sección Características Línea 2-->
+            <div class="row">
+                <div class="col">
+                    <h5>Caracteríticas Línea 2</h5>
+                </div>
+                <div class="col">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laudantium cum expedita? Quisquam voluptates soluta sapiente est reiciendis! Ab vero harum dolorem eos iure blanditiis fuga incidunt libero iusto velit!
+                    </p>
+                </div>
+                <div class="col">
+                    <img class="img-fluid img-desc-lineas" src="../../src/images/lineas-caracteristicas.webp" alt="Características Lineas de Productos">
+                </div>
             </div>
-            <h2 class="grid-item">Modo de Uso Linea 2</h2>
-            <div class="grid-item">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur animi est porro dolore atque molestias.
-                </p>
-            </div>
-        </section>
 
-        <!--Sección Beneficios Linea 2-->
-        <section class="grid-container-lineas">
-            <h2 class="grid-item">Beneficios Linea 2</h2>
-            <div class="grid-item">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consectetur animi est porro dolore atque molestias.
-                </p>
+            <!--Sección Modo de Uso-->
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid img-desc-lineas" src="../../src/images/lineas-uso.webp" alt="Modo de Uso Lineas de Productos">
+                </div>
+                <div class="col">
+                    <h5>Modo de Uso Línea 2</h5>
+                </div>
+                <div class="col">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laudantium cum expedita? Quisquam voluptates soluta sapiente est reiciendis! Ab vero harum dolorem eos iure blanditiis fuga incidunt libero iusto velit!
+                    </p>
+                </div>
+                
             </div>
-            <div class="grid-item">
-                <img src="../../src/images/lineas-beneficios.webp" alt="Beneficios Lineas de Productos" width="600" height="300">
-            </div>
-        </section>
 
-        <!--Productos de la Línea 2-->
-        <section class="tienda grid-container">
-            <div class="grid-item">
-                <img class="productos-carrito" src="../../src/images/productolinea2.png" alt="Producto #1 de la linea 2 ">
-                <div  class="nombre-producto">
-                    Producto L2 #1
+            <!--Sección Beneficios-->
+            <div class="row">
+                <div class="col">
+                    <h5>Beneficios Línea 2</h5>
                 </div>
-                <div class="precio-producto">
-                    $100.00 MXN
+                <div class="col">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim laudantium cum expedita? Quisquam voluptates soluta sapiente est reiciendis! Ab vero harum dolorem eos iure blanditiis fuga incidunt libero iusto velit!
+                    </p>
                 </div>
-                <button class="button" onclick="window.location.href='../../src/assets/carrito.html'">Agregar al carrito</button>
+                <div class="col">
+                    <img class="img-fluid img-desc-lineas" src="../../src/images/lineas-beneficios.webp" alt="Beneficios Lineas de Productos">
+                </div>
             </div>
-            <div class="grid-item">
-                <img class="productos-carrito" src="../../src/images/productolinea1.png" alt="Producto #2 de la linea 2">
-                <div class="nombre-producto">
-                    Producto L2 #2
+
+        </div>
+
+        <!--Productos Línea 2-->
+        <div class="container">        
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-transparent centrar-productos">
+                        <img src="../../src/images/productolinea2.png" class="card-img-top" alt="Producto 1 de la línea 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto L2 #1</h5>
+                            <h5 class="card-title">$100.00 MXN</h5>
+                            <a href="../../src/assets/carrito.html" class="button">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3">
+                    <div class="card-transparent centrar-productos">
+                        <img src="../../src/images/productolinea2.png" class="card-img-top" alt="Producto 2 de la línea 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto L2 #2</h5>
+                            <h5 class="card-title">$100.00 MXN</h5>
+                            <a href="../../src/assets/carrito.html" class="button">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3">
+                    <div class="card-transparent centrar-productos">
+                        <img src="../../src/images/productolinea2.png" class="card-img-top" alt="Producto 3 de la línea 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto L2 #3</h5>
+                            <h5 class="card-title">$100.00 MXN</h5>
+                            <a href="./src/assets/carrito.html" class="button">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-3">
+                    <div class="card-transparent centrar-productos">
+                        <img src="../../src/images/productolinea2.png" class="card-img-top" alt="Producto 4 de la línea 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto L2 #4</h5>
+                            <h5 class="card-title">$100.00 MXN</h5>
+                            <a href="../../src/assets/carrito.html" class="button">Agregar al carrito</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="precio-producto">
-                    $100.00 MXN
-                </div>
-                <button class="button" onclick="window.location.href='../../src/assets/carrito.html'">Agregar al carrito</button>
             </div>
-            <div class="grid-item">
-                <img class="productos-carrito" src="../../src/images/productolinea2.png" alt="Producto #3 de la linea 2">
-                <div class="nombre-producto">
-                    Producto L2 #3
-                </div>
-                <div class="precio-producto">
-                    $100.00 MXN
-                </div>
-                <button class="button" onclick="window.location.href='../../src/assets/carrito.html'">Agregar al carrito</button>
-            </div>
-            <div class="grid-item">
-                <img class="productos-carrito" src="../../src/images/productolinea2.png" alt="Producto #4 de la linea 2">
-                <div class="nombre-producto">
-                    Producto L2 #4
-                </div>
-                <div class="precio-producto">
-                    $100.00 MXN
-                </div>
-                <button class="button" onclick="window.location.href='../../src/assets/carrito.html'">Agregar al carrito</button>
-            </div>
-            <!--<div>
-                <p>
-                    **********AQUI SE MOSTRARÁN MÁS PRODUCTOS DE LA LÍNEA 2**********
-                </p>
-            </div>-->
-        </section>
+        </div>
     </main>
 
     <!-- Footer -->

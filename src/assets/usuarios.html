@@ -54,26 +54,28 @@
     </header>
 
     <main>
-        <!--Titulo Central Usuarios-->
-        <section> 
-            <h1>Mi Cuenta</h1>
-        </section>
+        
+        <div>
+            <!--Titulo Central Usuarios-->
+            <span class="d-block bg-separadores">Mi Cuenta</span>
+        </div>
 
-        <section class="video">
+        <div>
             <h2>Acceso a usuarios registrados</h2>
-        </section>
+        </div>
 
         <!--Formulario de Acceso-->
-        <section class="formulario">
-            <FORM>
-                <label>Nombre de usuario o correo electrónico:</label><INPUT type="text" size=100></INPUT>
-                <br>  
-                <label>Contraseña:</label><INPUT type="password" size=50></INPUT>
-                <br>
-                <br> 
-                <button class="button">Ingresar</button>
-            </FORM>
-        </section>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre de usuario o correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="button">Submit</button>
+        </form>
     </main>
 
     <!-- Footer -->
