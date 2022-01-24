@@ -24,14 +24,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*Define el alto de las imagenes para cada seccion*/
+/*Define el ancho de las imagenes para cada seccion*/
 .alto-img-sup{
     width: 100%;
 }
 
 /*Centrar productos para agregar al carrito de compras*/
 .centrar-productos{
-    width: 13rem;
+    width: 12rem;
     text-align: center;
 }
 
